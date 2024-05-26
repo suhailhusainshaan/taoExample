@@ -1,0 +1,30 @@
+{
+    "name": "suhailhusainshaan/taoExample",
+    "description" : "Test extension in menu bar",
+    "type" : "tao-extension",
+    "authors" : [
+        {
+        "name": "Open Assessment Technologies SA"
+        }
+    ],
+    "keywords" : [
+        "tao",
+        "computer-based-assessment"
+    ],
+    "homepage" : "http://www.taotesting.com",
+    "license" : [
+        "GPL-2.0"
+    ],
+    "extra" : {
+        "tao-extension-name" : "taoExample"
+    },
+    "minimum-stability" : "dev",
+    "require": {
+        "oat-sa/tao-core": ">=50.25.1.2"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "suhailhusainshaan\\taoExample\\" : ""
+        }
+    } 
+}

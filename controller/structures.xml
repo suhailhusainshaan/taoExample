@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE structures SYSTEM "../doc/structures.dtd">
+<structures>
+	<structure id="taoExample_main" name="taoExample" level="15" group="main">
+		<description />
+		<sections>
+			<section id="taoExample_template" name="Hello from .tpl" url="/taoExample/Greeter/helloFromTemplate" />
+			<section id="taoExample_main" name="taoExample" url="/taoExample/TaoExample/index" />
+			<section id="taoExample_other" name="Template" url="/taoExample/TaoExample/templateExample" />
+		</sections>
+	</structure>
+</structures>
